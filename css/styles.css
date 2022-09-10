@@ -19,6 +19,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+a {
+   display: inline-block;
+}
+
 /* header */
 .logo,
 .studio {
@@ -193,6 +197,7 @@ body {
 
  /* Portfolio */
  .filter {
+   border-radius: 4px;
     background-color: var(--button-background);
     color:inherit;
     font-family:inherit;
@@ -238,6 +243,8 @@ body {
  }
 
  .card-heading {
+   margin-top: 20px;
+   margin-bottom: 0;
    font-weight: 700;
    font-size: 18px;
    line-height: 2;
@@ -245,6 +252,8 @@ body {
  }
 
  .link-paragraph {
+   margin-top: 20px;
+   margin-bottom: 0;
    color: var(--primary-paragraph-color);
    font-weight: 400;
    font-size: 16px;
@@ -267,9 +276,9 @@ body {
    box-sizing: border-box;
    display: inline-block;
    width: 145px;
-   margin-top: 24px;
-   margin-bottom: 25px;
-   margin-left: 215px;
+   padding-top: 24px;
+   padding-bottom: 25px;
+   padding-right: 1040px;
  }
 
  .list {
@@ -333,7 +342,6 @@ body {
    box-sizing: border-box;
    padding-right: 954px;
    padding-bottom: 60px;
-
  }
 
  .block {
@@ -343,3 +351,14 @@ body {
  .contact {
    margin-top: 9px;
  }
+
+ /* portfolio-block-model */
+
+ .filter-list {
+   margin-top: 174px;
+   margin-bottom: 34px;
+ }
+
+.list.card-list {
+   margin-bottom: 95px;
+}
