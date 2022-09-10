@@ -19,8 +19,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-a {
-   display: inline-block;
+a, img {
+   display: block;
 }
 
 /* header */
@@ -83,11 +83,8 @@ a {
 
  .hero-heading {
    margin-top: 0;
-   /*margin-bottom: 30px;*/
    padding-top: 200px;
-   padding-right: 452px;
    padding-bottom: 280px;
-   padding-left: 452px;
     color: #ffffff;
     font-weight: 900;
     font-size: 44px;
@@ -264,7 +261,7 @@ a {
  /* block model */
 
 .container {
-   width: 1230px;
+   width: 1200px;
    padding-left: 15px;
    padding-right: 15px;
    outline: 2px solid tomato;
@@ -275,10 +272,8 @@ a {
  .logo-header {
    box-sizing: border-box;
    display: inline-block;
-   width: 145px;
    padding-top: 24px;
    padding-bottom: 25px;
-   padding-right: 1040px;
  }
 
  .list {
@@ -361,4 +356,34 @@ a {
 
 .list.card-list {
    margin-bottom: 95px;
+}
+
+/* flex */
+.nav-list {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 93px;
+}
+
+.contact-list {
+   display: flex;
+   align-items: center;
+   margin-left: 344px;
+}
+
+.nav-list li:not(:last-child) {
+   margin-right: 48px;
+}
+
+.contact-list li:not(:last-child) {
+   margin-right: 48px;
+}
+
+.container.flex-container {
+   display: flex;
+   align-items: center;
+}
+
+.nav-list li {
+   padding: 32px, 0;
 }
