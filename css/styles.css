@@ -84,7 +84,6 @@ a, img {
  .hero-heading {
    margin-top: 0;
    padding-top: 200px;
-   padding-bottom: 280px;
     color: #ffffff;
     font-weight: 900;
     font-size: 44px;
@@ -132,7 +131,8 @@ a, img {
 
  .headings {
    margin-bottom: 50px;
-   padding-left: 417px;
+   margin-left: auto;
+   margin-right: auto;
     font-size:36px;
     font-weight:700;
     line-height:1.2;
@@ -156,7 +156,7 @@ a, img {
     letter-spacing: 0.03em;
  }
 
- .card>p {
+ .description>p {
     color: var(--primary-paragraph-color);
     font-weight:400;
     font-size:16px;
@@ -282,14 +282,13 @@ a, img {
  }
 
  .hero-button {
-   display: inline-block;
+   display: block;
    padding-bottom: 200px;
    margin-top: 30px;
  }
 
  .features-list {
-   margin-top: 94px;
-   margin-bottom: 94px;
+   display: flex;
  }
 
  .feature {
@@ -297,17 +296,22 @@ a, img {
  } 
  
  .work-list {
-   margin-bottom: 94px;
+   display: flex;
+   padding-bottom: 94px;
+   margin-bottom: 0;
  }
  section {
    width: 1600px;
+   margin-top: 0;
+   margin-bottom: 0;
  }
 
  .command-heading {
    padding-top: 94px;
-   padding-left: 468px;
+   margin-left: auto;
+   margin-right: auto
    margin-bottom: 50px;
-   margin-top: 94px;
+   padding-top: 94px;
  }
 
  .card > h3 {
@@ -320,6 +324,7 @@ a, img {
  }
 
  .command-list {
+   display: flex;
    padding-bottom: 94px;
  }
 
@@ -350,12 +355,12 @@ a, img {
  /* portfolio-block-model */
 
  .filter-list {
-   margin-top: 174px;
+   padding-top: 174px;
    margin-bottom: 34px;
  }
 
 .list.card-list {
-   margin-bottom: 95px;
+   padding-bottom: 95px;
 }
 
 /* flex */
@@ -386,4 +391,30 @@ a, img {
 
 .nav-list li {
    padding: 32px, 0;
+}
+
+.features-list > li:not(:last-child) {
+   margin-right: 30px;
+}
+
+.features-list > li {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
+.illustration {
+   margin-right: 30px;
+}
+
+.description {
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.command-list > .card:not(:last-child) {
+   margin-right: 30px;
+}
+
+.address-list {
+   padding-bottom: 60px;
 }
