@@ -268,7 +268,6 @@ a, img {
    width: 1200px;
    padding-left: 15px;
    padding-right: 15px;
-   outline: 2px solid tomato;
    margin-left: auto;
    margin-right: auto;
 }
@@ -365,7 +364,6 @@ a, img {
    display: flex;
    flex-wrap: wrap;
    padding-bottom: 94px;
-   outline: 2px solid black;
 }
 
 /* flex */
@@ -434,7 +432,6 @@ a, img {
 
 .flex-card {
    width: 370px;
-   background-color: tomato;
    margin-right: 30px;
    margin-bottom: 30px;
 }
