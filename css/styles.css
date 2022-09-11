@@ -251,8 +251,8 @@ a, img {
  }
 
  .link-paragraph {
-   margin-top: 20px;
-   margin-bottom: 0;
+   margin-top: 4px;
+   padding-bottom: 20px;
    color: var(--primary-paragraph-color);
    font-weight: 400;
    font-size: 16px;
@@ -356,12 +356,18 @@ a, img {
  /* portfolio-block-model */
 
  .filter-list {
-   padding-top: 174px;
-   margin-bottom: 34px;
+   display: flex;
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 94px;
+   padding-bottom: 34px;
+   justify-content: center;
  }
 
 .list.card-list {
-   padding-bottom: 95px;
+   display: flex;
+   flex-wrap: wrap;
+   padding-bottom: 94px;
 }
 
 /* flex */
@@ -419,3 +425,31 @@ a, img {
 .address-list {
    padding-bottom: 60px;
 }
+
+.filter {
+   margin-right: 8px;
+}
+
+.filter.marketing {
+   margin-right: 0;
+}
+
+.flex-card {
+   width: 370px;
+   background-color: tomato;
+   margin-right: 30px;
+   margin-bottom: 30px;
+}
+
+.flex-card:nth-child(3n) {
+   margin-right: 0;
+}
+
+.flex-card:nth-last-child(-n+3) {
+   margin-bottom: 0;
+}
+
+.card-description {
+   margin: 20px 24px 54px 24px;
+}
+
