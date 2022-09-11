@@ -152,6 +152,8 @@ a, img {
  }
 
  .card h3 {
+   margin-top: 30px;
+   margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -315,11 +317,6 @@ a, img {
    padding-top: 94px;
  }
 
- .card > h3 {
-   margin-top: 30px;
-   margin-bottom: 10px;
- }
-
  .card > p {
    padding-bottom: 30px;
  }
@@ -338,11 +335,11 @@ a, img {
    
  }
 
- .adress-footer {
+ .address-footer {
    display: inline-block;
    box-sizing: border-box;
    padding-right: 954px;
-   padding-bottom: 60px;
+  
  }
 
  .block {
@@ -368,6 +365,7 @@ a, img {
    display: flex;
    flex-wrap: wrap;
    padding-bottom: 94px;
+   outline: 2px solid black;
 }
 
 /* flex */
